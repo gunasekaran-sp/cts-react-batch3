@@ -1,0 +1,33 @@
+
+
+  popular JS module standards from third-party communities
+
+
+  1. AMD ( Async Module Definition )
+  2. CommonJS
+
+      --> simple
+      --> default to Node.js runtime
+
+
+      points:
+
+      --> every .js is an module
+      --> we need to explicitly export to other modules using 'module.exports'
+      --> need to require modules using 'require'
+
+
+
+  3. SystemJS  
+
+  --------------------------------------------------------
+
+
+  AMD - spec
+
+
+    --> define('mid',[],factory);
+    --> require([mid],callback);
+
+
+--------------------------------------------------------    
