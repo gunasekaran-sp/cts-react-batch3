@@ -1,0 +1,92 @@
+
+
+
+   what JS-lang can do on HTML-page in browser ?
+   
+   JS-lang using Web APIs can bring any dynamic behav to HTML-page
+   
+   Web APIs
+   
+      e.g  DOM, XMR , Timer , HTML5 APIs
+      
+      are implemented and abstracted as JS-objs/func by browsers
+      
+      
+    using DOM API
+    --------------
+     --> can create,retreive,update,delete HTML elemnts
+     --> can change element's style
+     --> can change element's attributes
+     --> can change element's text
+     --> can create rich UI components
+     --> can listen events on HTML elements
+     --> can validate form-fields
+     
+     using XHR API
+     ----------------
+     
+     --> can communicate with server async, update results in existing page.
+     
+     HTML-5 APIs
+     
+     1. canvas
+     2. audio/video
+     3. storage API
+     4. Geo
+     5. SSE
+     
+      
+       
+        
+     Problems with plain-JS 
+     ----------------------
+     
+     --> browser compatibility
+     --> too much code even for simple oprn
+     
+     --> performance ( when using DOM API )
+     --> memory management 
+     
+     --> manual data-binding is very difficult.
+     
+     --> no standards to create re-usable UI-components for web-pages
+     
+     ----------------------------------------------------
+     
+     Solutions:
+     
+     using JS-Libraries and Frameworks
+     
+     
+     JS libraries
+     
+       --> jQuery
+       
+          limitations with jQuery
+          
+          --> too low level
+          --> no solns for code organization
+          --> no data-binding
+          
+       --> knockount
+       
+      JS - Frameworks
+      
+         1. Angular-1
+         2. Ember
+         
+         
+       UI component based f.ws
+       
+         1. DOJO
+         2. EXT-JS
+                      
+         React
+     
+          
+        ----------------------------------------------------        
+                    
+                         
+                              
+                                        
+     
